@@ -48,8 +48,8 @@ The codebase operates across two primary mechanical failure modes:
 
 ### 1. Column Buckling (Euler's Theorem)
 When an athlete executes explosive movements, vertical pillars experience severe axial compression load. If a pillar is too tall or too thin, it will bow and violently snap outward. The program tracks this boundary using:
-\[P_{cr} = \frac{\pi^2 E I}{L^2}\]
-Where E represents the wood material stiffness (Modulus of Elasticity), I is the cross-sectional shape's Area Moment of Inertia (\(I = \frac{a^4}{12}\) for square profiles), and L is the vertical height of the post.
+$$P_{cr} = \frac{\pi^2 E I}{L^2}$$
+Where E represents the wood material stiffness (Modulus of Elasticity), I is the cross-sectional shape's Area Moment of Inertia ($$\(I = \frac{a^4}{12}\)$$ for square profiles), and L is the vertical height of the post.
 
 ### 2. Local Bearing Crushing Stress
 Where the metal pull-up bar passes through the wooden split capping block mechanism, the downward force vector behaves like a miniature crushing cylinder. The software checks this localized bearing footprint to ensure internal stresses stay safely below material fiber boundaries:
