@@ -2,6 +2,8 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/gym-structural-analyzer.svg)](https://pypi.org/project/gym-structural-analyzer/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+
 
 **Gym Structural Analyzer** is an open-source Python package I built to help check the structural strength of wooden frames before building them.
 
