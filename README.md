@@ -53,7 +53,7 @@ Where E represents the wood material stiffness (Modulus of Elasticity), I is the
 
 ### 2. Local Bearing Crushing Stress
 Where the metal pull-up bar passes through the wooden split capping block mechanism, the downward force vector behaves like a miniature crushing cylinder. The software checks this localized bearing footprint to ensure internal stresses stay safely below material fiber boundaries:
-\[\text{Stress} = \frac{\text{Force}}{\text{Area}}\]
+\[$$\text{Stress} = \frac{\text{Force}}{\text{Area}}\$$]
 Where Area is calculated dynamically using the pipe outside diameter multiplied by the exact contact block surface width.
 
 ## Automated Testing
