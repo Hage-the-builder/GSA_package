@@ -1,7 +1,7 @@
 # Gym Structural Analyzer 
 
 
-A universal, open-source Python package designed to stress-test and structurally verify backyard calisthenics gyms or timber frames prior to physical carpentry construction. 
+A universal, open-source Python package designed to stress-test and structurally verify timber frames sturdiness and buckling prior to physical carpentry construction. 
 
 This engine uses discrete engineering mechanics (Euler's Column Buckling Theorem and the Work-Energy Principle) to calculate if vertical wood supports will buckle or crush under dynamic athletic loads.
 
@@ -52,9 +52,7 @@ $$P_{cr} = \frac{\pi^2 E I}{L^2}$$
 Where E represents the wood material stiffness (Modulus of Elasticity), I is the cross-sectional shape's Area Moment of Inertia ($$\(I = \frac{a^4}{12}\)$$ for square profiles), and L is the vertical height of the post.
 
 ### 2. Local Bearing Crushing Stress
-Where the metal pull-up bar passes through the wooden split capping block mechanism, the downward force vector behaves like a miniature crushing cylinder. The software checks this localized bearing footprint to ensure internal stresses stay safely below material fiber boundaries:
-\[$$\text{Stress} = \frac{\text{Force}}{\text{Area}}\$$]
-Where Area is calculated dynamically using the pipe outside diameter multiplied by the exact contact block surface width.
+Where the metal pull-up bar passes through the wooden split capping block mechanism, the downward force vector behaves like a miniature crushing cylinder. The software checks this localized bearing footprint to ensure internal stresses stay safely below material fiber boundaries.
 
 ## Automated Testing
 
