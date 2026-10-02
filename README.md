@@ -5,7 +5,7 @@ A universal, open-source Python package designed to stress-test and structurally
 
 This engine uses discrete engineering mechanics (Euler's Column Buckling Theorem and the Work-Energy Principle) to calculate if vertical wood supports will buckle or crush under dynamic athletic loads.
 
-## 📥 Installation
+## - Installation
 
 The package is officially published to the global Python Package Index (PyPI). You can install it directly onto any machine terminal globally by running:
 
