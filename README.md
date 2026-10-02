@@ -21,11 +21,11 @@ pip install gym-structural-analyzer
 
 ## What It Can Do
 
-* **Column Buckling** — Calculates the critical load at which a wooden post could buckle.
-* **Dynamic Impact** — Estimates peak forces caused by movement and sudden deceleration rather than only using static body weight.
-* **Multiple Wood Types** — Includes material data for woods such as Southern Yellow Pine, Red Oak, and Douglas Fir.
-* **Custom Dimensions** — Test different post sizes, heights, and material choices.
-* **Input Validation** — Checks inputs and catches invalid dimensions or material selections.
+* **Column Buckling** : Calculates the critical load at which a wooden post could buckle.
+* **Dynamic Impact** : Estimates peak forces caused by movement and sudden deceleration rather than only using static body weight.
+* **Multiple Wood Types** : Includes material data for woods such as Southern Yellow Pine, Red Oak, and Douglas Fir.
+* **Custom Dimensions** : Test different post sizes, heights, and material choices.
+* **Input Validation** : Checks inputs and catches invalid dimensions or material selections.
 
 ## Usage
 
