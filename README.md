@@ -5,7 +5,7 @@ A universal, open-source Python package designed to stress-test and structurally
 
 This engine uses discrete engineering mechanics (Euler's Column Buckling Theorem and the Work-Energy Principle) to calculate if vertical wood supports will buckle or crush under dynamic athletic loads.
 
-## - Installation
+## Installation
 
 The package is officially published to the global Python Package Index (PyPI). You can install it directly onto any machine terminal globally by running:
 
@@ -13,21 +13,21 @@ The package is officially published to the global Python Package Index (PyPI). Y
 pip install gym-structural-analyzer
 ```
 
-## - Features
+## Features
 
 * **Universal Math Modules:** Standalone calculation modules that accept any custom timber dimensions, lumber species, or player weights.
 * **Dynamic Impact Simulation:** Maps deceleration bounds to calculate instantaneous peak impact force spikes from moving kinetic energy, bypassing simple static weight estimations.
 * **Material Integrity Registries:** Cross-references calculations against built-in industrial engineering datasets for Southern Yellow Pine, Red Oak, and Douglas Fir.
 * **Input Protection Gates:** Bulletproof error handling that catches illegal structural geometry or material choices safely.
 
-## - Usage
+## Usage
 
 To run the interactive terminal interface locally:
 ```bash
 python gym-structural-analyzer.py
 ```
 
-### - Example Code Integration
+### Example Code Integration
 If you are building your own engineering pipeline, you can import and call the underlying physics calculators directly inside your code scripts:
 
 ```python
@@ -42,7 +42,7 @@ p_critical = calculate_column_buckling(post_thickness, post_height, wood_type)
 print(f"Critical Buckling Point: {p_critical:.1f} Newtons")
 ```
 
-## - Underlying Engineering Physics
+## Underlying Engineering Physics
 
 The codebase operates across two primary mechanical failure modes:
 
@@ -56,7 +56,7 @@ Where the metal pull-up bar passes through the wooden split capping block mechan
 \[\text{Stress} = \frac{\text{Force}}{\text{Area}}\]
 Where Area is calculated dynamically using the pipe outside diameter multiplied by the exact contact block surface width.
 
-## - Automated Testing
+## Automated Testing
 
 This package uses a comprehensive Test-Driven Development (TDD) layout. To run the automated unit testing validation loops and ensure the math calculations pass cleanly:
 
@@ -64,7 +64,7 @@ This package uses a comprehensive Test-Driven Development (TDD) layout. To run t
 pytest test_gym_structural_analyzer.py
 ```
 
-## - License
+## License
 
 Distributed under the **MIT License**. See `LICENSE` for more details.
 
