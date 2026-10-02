@@ -1,12 +1,12 @@
 # Gym Structural Analyzer 
 
-[![PyPI version](https://shields.io)](https://pypi.org/project/gym-structural-analyzer/1.0.0/)
-[![License: MIT](https://shields.io)](https://opensource.org/license/mit)
-
+[![PyPI version](https://shields.io)](https://pypi.org)
+[![License: MIT](https://shields.io)](https://opensource.org)
 
 A universal, open-source Python package designed to stress-test and structurally verify timber frames sturdiness and buckling prior to physical carpentry construction. 
 
 This engine uses discrete engineering mechanics (Euler's Column Buckling Theorem and the Work-Energy Principle) to calculate if vertical wood supports will buckle or crush under dynamic athletic loads.
+
 
 ## Installation
 
