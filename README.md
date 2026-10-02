@@ -1,6 +1,8 @@
 # Gym Structural Analyzer 
-[![PyPI version](https://shields.io)](https://pypi.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+
+![PyPI version](https://shields.io)
+![License: MIT](https://shields.io)
+
 
 A universal, open-source Python package designed to stress-test and structurally verify timber frames sturdiness and buckling prior to physical carpentry construction. 
 
